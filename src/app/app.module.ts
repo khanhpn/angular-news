@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { SubComponent } from './sub.component';
-import { StudyMultiComponent } from './multi-component/study-multi.component';
+import { BindingComponent } from './binding/binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SubComponent,
-    StudyMultiComponent
-  ],
+    BindingComponent
+],
   imports: [
     BrowserModule
   ],
